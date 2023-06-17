@@ -1,0 +1,7 @@
+﻿Name,Filename,Cell Line,Condition
+hypox.1,GSM692133,HL-1 cardiomyocyte,"Hypoxia (8 hr, 1% O2)"
+hypox.2,GSM692134,HL-1 cardiomyocyte,"Hypoxia (8 hr, 1% O2)"
+hypox.3,GSM692135,HL-1 cardiomyocyte,"Hypoxia (8 hr, 1% O2)"
+normox.1,GSM692136,HL-1 cardiomyocyte,"Normoxia (8 hr, 21% O2)"
+normox.2,GSM692137,HL-1 cardiomyocyte,"Normoxia (8 hr, 21% O2)"
+normox.3,GSM692138,HL-1 cardiomyocyte,"Normoxia (8 hr, 21% O2)"

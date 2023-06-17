@@ -1,0 +1,73 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns content to the top */
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Sets maximum width */
+}
+
+.tab-pane {
+  width: 100%;
+}
+
+.tab-pane > .tabpane-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabpane-child > .volcano-row,
+.tabpane-child > .heatmap-row {
+  margin-bottom: 1rem;
+}
+
+.volcano-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Updated based on new div structure */
+  justify-content: center;
+  align-items: center;
+}
+
+.heatmap-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* For smaller screens */
+  min-height: 300px; /* Ensure there is enough height for the plot */
+}
+
+.heatmap-col {
+  flex: 1 0 auto; /* Updated to ensure flex items don't shrink smaller than their content */
+  padding: 1rem;
+}
+
+#sigsets_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#sigvolcano_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sigsets_div div {
+  width: 50%;
+  max-width: 800px;
+}
+
+.tablepane {
+  width: auto;
+}
